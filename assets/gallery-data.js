@@ -8,7 +8,7 @@ window.GALLERY_PHOTOS = [
     tags: ["этикетка", "бамбук", "панда"]
   },
   {
-  src: "assets/photos/1.jpg",
+  src: "assets/photos/1.png",
   title: "Название фотографии",
   alt: "Описание для доступности",
   location: "Краснодарский край",
@@ -16,7 +16,7 @@ window.GALLERY_PHOTOS = [
   tags: ["природа", "город"]
 },
   {
-  src: "assets/photos/2.jpg",
+  src: "assets/photos/2.png",
   title: "Название фотографии",
   alt: "Описание для доступности",
   location: "Краснодарский край",
@@ -24,7 +24,7 @@ window.GALLERY_PHOTOS = [
   tags: ["природа", "город"]
 },
 {
-  src: "assets/photos/3.jpg",
+  src: "assets/photos/3.png",
   title: "Название фотографии",
   alt: "Описание для доступности",
   location: "Краснодарский край",
@@ -32,7 +32,7 @@ window.GALLERY_PHOTOS = [
   tags: ["природа", "город"]
 },
 {
-  src: "assets/photos/4.jpg",
+  src: "assets/photos/4.png",
   title: "Название фотографии",
   alt: "Описание для доступности",
   location: "Краснодарский край",
@@ -40,7 +40,7 @@ window.GALLERY_PHOTOS = [
   tags: ["природа", "город"]
 },
 {
-  src: "assets/photos/5.jpg",
+  src: "assets/photos/5.png",
   title: "Название фотографии",
   alt: "Описание для доступности",
   location: "Краснодарский край",
@@ -160,7 +160,7 @@ window.GALLERY_PHOTOS = [
     tags: ["бутылка", "панда", "бамбук"]
   }
   {
-  src: "assets/photos/hf_20260506_174225_bf7ba968-8da5-40a1-b397-bdf02e14efe4",
+  src: "assets/photos/hf_20260506_174225_bf7ba968-8da5-40a1-b397-bdf02e14efe4.png",
   title: "Название фотографии",
   alt: "Описание для доступности",
   location: "Краснодарский край",
