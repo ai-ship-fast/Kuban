@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Фотоархив и веб-галерея Кубани.">
+    <meta property="og:title" content="Кубань - фотогалерея">
+    <meta property="og:description" content="Подборка фотографий в аккуратной веб-галерее.">
+    <meta property="og:type" content="website">
+    <title>Кубань - фотогалерея</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="assets/gallery-data.js"></script>
+    <script defer src="assets/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Шапка сайта">
+      <a class="brand" href="#top" aria-label="К началу страницы">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Кубань</span>
+      </a>
+      <nav class="main-nav" aria-label="Навигация">
+        <a href="#gallery">Галерея</a>
+        <a href="#about">О проекте</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Фотогалерея Кубани</h1>
+          <p>Свет, места, люди и детали, которые хочется сохранить в одном тихом визуальном архиве.</p>
+          <a class="primary-link" href="#gallery">Смотреть галерею</a>
+        </div>
+        <div class="hero-preview" aria-hidden="true">
+          <div class="preview-frame preview-frame-large"></div>
+          <div class="preview-frame preview-frame-small"></div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="gallery-title">Галерея</h2>
+            <p id="gallery-count">Фотографии скоро появятся.</p>
+          </div>
+          <div class="filters" id="filters" aria-label="Фильтры галереи"></div>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state">
+          <p>Здесь появятся фотографии после добавления файлов в проект.</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div>
+          <h2 id="about-title">О проекте</h2>
+          <p>Страница подготовлена для GitHub Pages: фотографии лежат в репозитории, а галерея собирается прямо в браузере без серверной части.</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Просмотр фотографии">
+      <button class="lightbox-button lightbox-close" type="button" id="lightbox-close" aria-label="Закрыть"></button>
+      <button class="lightbox-button lightbox-prev" type="button" id="lightbox-prev" aria-label="Предыдущее фото"></button>
+      <figure class="lightbox-content">
+        <img id="lightbox-image" alt="">
+        <figcaption>
+          <strong id="lightbox-title"></strong>
+          <span id="lightbox-meta"></span>
+        </figcaption>
+      </figure>
+      <button class="lightbox-button lightbox-next" type="button" id="lightbox-next" aria-label="Следующее фото"></button>
+    </div>
+  </body>
+</html>
