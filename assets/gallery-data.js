@@ -334,5 +334,101 @@ window.GALLERY_PHOTOS = [
     location: "Green Panda",
     date: "2026",
     tags: ["green panda", "посуда", "бутылка", "кухня"]
+  },
+  {
+    src: "assets/photos/green-panda-22.png",
+    title: "Green Panda: пластификатор 5L",
+    alt: "Белая канистра Green Panda с пластификатором в строительной сцене.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "пластификатор", "канистра", "стройка"]
+  },
+  {
+    src: "assets/photos/green-panda-23.png",
+    title: "Green Panda: пластификатор на рабочем столе",
+    alt: "Канистра Green Panda с пластификатором рядом со строительными инструментами.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "пластификатор", "канистра", "стройка"]
+  },
+  {
+    src: "assets/photos/green-panda-24.png",
+    title: "Green Panda: пластификатор 1L",
+    alt: "Небольшая канистра Green Panda с пластификатором в строительном магазине.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "пластификатор", "канистра", "полка"]
+  },
+  {
+    src: "assets/photos/green-panda-25.png",
+    title: "Green Panda: средство для полов",
+    alt: "Мятная бутылка Green Panda со средством для мытья полов на магазинной полке.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "полы", "бутылка", "полка"]
+  },
+  {
+    src: "assets/photos/green-panda-26.png",
+    title: "Green Panda: хозяйственное жидкое мыло",
+    alt: "Флакон Green Panda с хозяйственным жидким мылом возле раковины.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "жидкое мыло", "бутылка", "интерьер"]
+  },
+  {
+    src: "assets/photos/green-panda-27.png",
+    title: "Green Panda: средство для полов 5L",
+    alt: "Большая бутылка Green Panda со средством для мытья полов в светлом магазине.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "полы", "бутылка", "полка"]
+  },
+  {
+    src: "assets/photos/green-panda-28.png",
+    title: "Green Panda: полы на витрине",
+    alt: "Большая мятная бутылка Green Panda со средством для мытья полов среди бытовой химии.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "полы", "бутылка", "магазин"]
+  },
+  {
+    src: "assets/photos/green-panda-29.png",
+    title: "Green Panda: жидкое мыло 1L",
+    alt: "Прозрачный флакон Green Panda с хозяйственным жидким мылом и помпой.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "жидкое мыло", "бутылка", "полка"]
+  },
+  {
+    src: "assets/photos/green-panda-30.png",
+    title: "Green Panda: мыло на полке",
+    alt: "Флакон Green Panda с хозяйственным жидким мылом на полке магазина.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "жидкое мыло", "бутылка", "полка"]
+  },
+  {
+    src: "assets/photos/green-panda-31.png",
+    title: "Green Panda: мыло с полотенцами",
+    alt: "Флакон Green Panda с жидким мылом рядом с полотенцами и растением.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "жидкое мыло", "бутылка", "интерьер"]
+  },
+  {
+    src: "assets/photos/green-panda-32.png",
+    title: "Green Panda: пластификатор склад",
+    alt: "Канистра Green Panda с пластификатором в складской строительной сцене.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "пластификатор", "канистра", "склад"]
+  },
+  {
+    src: "assets/photos/green-panda-33.png",
+    title: "Green Panda: пластификатор на полке",
+    alt: "Канистра Green Panda с пластификатором на фоне полок строительного магазина.",
+    location: "Green Panda",
+    date: "2026",
+    tags: ["green panda", "пластификатор", "канистра", "полка"]
   }
 ];
